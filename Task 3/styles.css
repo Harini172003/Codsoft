@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f2f2f2; /* Background color for the body */
+}
+
+.calculator {
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    background-color: #fff; /* Background color for the calculator */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for the calculator */
+    max-width: 400px; /* Limit the width of the calculator */
+    width: 100%; /* Ensure the calculator takes up the available width */
+}
+
+.calculator input[type="text"] {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px 0px 10px 10px;
+    font-size: 18px;
+    border: 1px solid #ccc; /* Border for the display */
+    border-radius: 5px; /* Border radius for the display */
+}
+
+.calculator .keys {
+    display: flex;
+    flex-wrap: wrap; /* Wrap the buttons to the next line if needed */
+    justify-content: center; /* Center horizontally */
+}
+
+.calculator .keys button {
+    width: 50px;
+    height: 50px;
+    font-size: 16px;
+    margin: 5px;
+    border: none;
+    background-color: #e0e0e0; /* Background color for the keys */
+    cursor: pointer;
+    border-radius: 5px; /* Border radius for the keys */
+}
+
+.calculator .keys button:hover {
+    background-color: #d0d0d0; /* Hover background color for the keys */
+}
+
+.calculator .keys .operator {
+    background-color: #ff8c00; /* Background color for operator keys */
+    color: #fff; /* Text color for operator keys */
+}
+
+.calculator .scientific-keys {
+    grid-column: span 4;
+}
