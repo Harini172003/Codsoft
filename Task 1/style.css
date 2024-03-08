@@ -1,0 +1,87 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #a4dcf5;
+  color: #333;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+.box {
+  background-color: #f6f9fb; /* Adjust with the desired color */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #3498db;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #2980b9;
+}
+
+header, section, footer {
+  padding: 40px 0;
+  text-align: center;
+}
+
+header {
+  background: #14424c;
+  color: #fff;
+}
+
+header h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+header p {
+  font-size: 18px;
+}
+
+.feature {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-bottom: 20px; /* Add proper spacing between feature sections */
+}
+
+#security, #support, #download {
+  background-color: #a4dcf5;
+  padding: 5px 0;
+  margin-bottom: 20px; /* Add spacing between the sections */
+}
+
+.feature-content { /* New container element for image and text */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+img {
+  width: 30%; /* Adjust the width as needed */
+  border-radius: 8px;
+  margin-right: 20px;
+}
